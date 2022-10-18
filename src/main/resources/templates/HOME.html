@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:padding="http://www.w3.org/1999/xhtml" xmlns:width="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+</head>
+<body bgcolor="#00FF7F">
+<form>
+    <style>
+    INPUT {
+      background-color: white;
+      color: black;
+      width: 70px;
+
+    }
+  </style>
+    <label> <b> <center>  Первое число </center></b> </label>
+    <center> <input  type="number" name="first"><br> </center>
+    <label> <b> <center>Второе число</center></b> </label>
+    <center> <input type="number" id="second" name="second"></center><br>
+    <label><b><center>Сложение </center></b></label>
+    <center><input id="+" type="radio" name="operation" value="+"></center><br>
+    <label><b><center>Вычитание </center></b></label>
+    <center> <input id="-" type="radio"  name="operation" value="-"></center><br>
+    <label><b><center>Произведение </center></b></label>
+    <center><input id="*" type="radio"  name="operation" value="*"></center><br>
+    <label><b><center>Частное </center></b></label>
+    <center><input id="/" type="radio"  name="operation" value="/"></center><br>
+
+
+    <center>  <input  type="submit" id=buttonGET name="submit"  formaction="/HOME" value="GET"   formmethod="get" ><br></center>
+    <center><input type="submit" id="buttonPOST" formaction="/HOME" value="POST" formmethod="post" ><br></center>
+
+
+</form>
+</body>
+</html>
